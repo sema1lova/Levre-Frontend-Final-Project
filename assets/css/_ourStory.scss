@@ -1,0 +1,181 @@
+.ourstory-slider{
+    background-image: url("../img/ourStory/ourStory-header/our-story-header-1.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .ourstory-content{
+        text-align: start;
+        margin-left: 150px;
+        padding-top: 282px;
+        align-items: center;
+        h1{
+            width: 42%;
+            font-size: 40px;
+            color: $black;
+             letter-spacing: 3px;
+        }
+        p{
+            width: 42%;
+             letter-spacing: 1px;
+            font-size: 22px;
+            margin-top: 30px;
+            color: $black;
+        }
+    }
+}
+
+
+.vegan{
+    margin-top: 80px;
+    .vegan-left{
+        .vegan-box{ 
+            margin-bottom: 22px;
+            display: flex;
+            // justify-content: space-evenly;
+            .vegan-box-image{
+                svg{
+                    margin-top: 22px;
+                }
+                margin-right: 55px;
+                background-color: $pink-bgc;
+                text-align: center;
+                width: 30%;
+                height: 100px;
+                border-radius: 50%;
+            }
+            
+            .vegan-content{
+                h3{
+                    margin-bottom: 11px;
+                    color: $black;
+                }
+                p{
+                    color: $black;
+                    font-size: 17px;
+                     width: 66%;
+                }
+            }
+        }
+    }
+    .vegan-right{
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        // text-align: center;
+    }
+}
+
+.founder {
+    background-color: $pink-bgc;
+    .founder-left {
+        .founder-image {
+            img {
+                width: 460px;
+            }
+        }
+    }
+    .founder-right {
+    .founder-content{
+            h2{
+                font-size: 35px!important;
+                line-height: 56px!important;
+                color: $black;
+            }
+            .founder-first-p{
+                width: 86%;
+                color: $black;
+                font-size: 25px;
+            }
+            .founder-second-p{
+                i{
+                    margin-right: 11px;
+                    // width: 10%;
+                }
+                font-size: 20px;
+                color: $black;
+            }
+        }
+    }   
+}
+
+.ourmission{
+    margin-top: 125px;
+    margin-bottom: 125px;
+    .ourmission-content{
+        h2{
+            color: $black;
+        }
+        p{
+            margin: 17px auto;
+            color: $black;
+            width: 41%;
+            font-size: 26px;
+        }
+    }
+}
+
+.ourstory-discover{
+    background-image: url("../img/ourStory/discover-our-products/Discover-Products-our.jpg");
+    background-attachment: fixed;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .discover-div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .discover-content{
+            height: max-content;
+            h1{
+                color: $black;
+            }
+            p{
+                color: $black;
+                width: 55%;
+                font-size: 22px;
+                margin: 44px auto;
+            }
+        }   
+    }
+
+}
+
+.joinourteam{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    .joinourteam-content{
+        // margin-left: 100px;
+        h1{
+            color: $black;
+            margin-bottom: 26px;
+        }
+        p{
+            color: $black;
+            line-height: 35px;
+            font-size: 21.5px;
+            margin-bottom: 42px;
+        }
+        .team__btn{
+            text-decoration: none;
+            padding: 16px 50px;
+            color: $black;
+            font-weight: 500;
+            border: 1px solid $black;
+        }
+        .team__btn:hover{
+            background-color: $black;
+            color:$white;
+            transition: .4s;
+        }
+
+    }
+    .joinourteam-image{
+        img{
+            width: 100%;
+        }
+    }
+}
