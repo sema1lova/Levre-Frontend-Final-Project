@@ -10,6 +10,7 @@
 @import"./product.scss";
 @import "./values.scss";
 @import "./wishlist.scss";
+@import "./page-notfound.scss";
 
 *{
     margin: 0;
@@ -23,12 +24,12 @@
     padding: 20px 45px;
     color: $black;
     border: 1px solid $black;
+    transition: .4s;
 }
 
 .shopNowOrAll__btn:hover{
     background-color: $black;
     color:$white;
-    transition: .4s;
 }
 //End Btn
 

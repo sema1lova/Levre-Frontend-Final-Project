@@ -40,12 +40,10 @@
             .second-btn{
                 color: $white !important;
                 border: 1px solid $white;
+                transition: all .3s ease-in-out!important;
             }
             .second-btn:hover{
                     background-color: $white;
-                    // transition: .5s;
-                    // transition-timing-function: linear;
-                    transition: all .3s ease-in-out!important;
                     color: $black !important;
             }
         }
