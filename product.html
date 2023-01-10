@@ -6,15 +6,293 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <header>
+        <div class="head row align-items-center">
+            <div class="col-lg-2">
+                <div class="logo">
+                    <img src="assets/img/header/logo.svg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 text-center">
+                <nav class="nav">
+                    <a href="home.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="product.html">Products</a>
+                    <a href="ourStory.html">Our Story</a>
+                    <a href="values.html">Values</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="giftCards.html">Gift Cards</a>
+                    <a href="contact.html">Contact</a>
     
+                    <div class="other-dropdown">
+                        <a href="" class="other-dropbtn">Other</a>
+                        <div class="other-dropdown-content">
+                          <a href="myAccount.html"> My account</a>
+                          <a href="wishlist.html">Wishlist</a>
+                          <a href="cart.html">Cart</a>
+                        </div>
+                      </div> 
+                </nav>
+            </div>
+            <div class="col-lg-3">
+                <div class="icons">
+                    <i class="icon fa-solid fa-magnifying-glass"></i>
+                    <i class="icon fa-regular fa-heart"></i>
+                    <i class="icon fa-regular fa-user"></i>
+                    <i class="bag fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
 
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="product-top-title">
+                    <p>Home / Jo Malone</p>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-lg-4">
+                    <div class="product-left">
+                        <div class="product-image">
+                            <img src="./assets/img/product/related-products/product-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/script.js"></script>
+                <div class="col-lg-6">
+                    <div class="product-right">
+                        <div class="product-content">
+                            <h2>Eye Cream</h2>
+                            <p class="product-price"> $25.00</p>
+                            <p class="product-desc">
+                                A potent anti-oxidant blend formulated with generous doses of
+                                 Vitamins C and E to gently nourish and protect the delicate 
+                                 skin surrounding the eyes.
+                            </p>
+
+                            <div class="pro-title">
+                                <div class="pro-left">
+                                 <span class="span-minus">-</span>
+                                 <span class="pro-count">1</span>
+                                 <span class="span-plus">+</span>
+                                </div>
+                                <div class="pro-center">
+                                 <button> Add to cart </button>
+                                </div>
+                             </div>
+                             
+                             <div class="pro-right">
+                                <div class="pro-right-icon">
+                                 <i class="fa-regular fa-heart"></i>
+                                </div>
+                                <div class="pro-right-title">
+                                    <span class="addtowislist">
+                                        Add to Wishlist
+                                    </span>
+                                </div>
+                            </div>
+
+                            <p class="pro-category-desc">
+                                Categories: Bestsellers, Body, Fragrance, Jo Malone, Masks, Organic Body, Organic Hair, Organic Skincare, Organic Wellbeing, Ouai, Parfume, Skincare, Spa, Sunscreens, Wellbeing
+                            </p>
+
+                            <p class="pro-tag-desc">
+                                Tag: product page opt.2
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="related-product">
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="related-title text-center">
+                    <h1>Related products</h1>
+                </div>
+            </div>
+            <div class="row">
+               <div class="related-products ">
+                    <div class="col-lg-3">
+                        <div class="related-box">
+                            <div class="related-image">
+                                <img src="./assets/img/home/bestseller/bestseller-1.jpg" alt="">
+                            </div>
+                            <div class="related-content">
+                                <p> Facial Balancing Gel </p>
+                                <p>$ 45.00 - $ 99.00</p>    
+                            </div>
+    
+                            <div class="related-icons-overlay">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="related-box">
+                            <div class="related-image">
+                                <img src="./assets/img/home/bestseller/bestseller-2.jpg" alt="">
+                            </div>
+                            <div class="related-content">
+                                <p> Post-Shave Lotion </p>
+                                <p>$ 54.00 </p>
+                            </div>
+                            <div class="related-icons-overlay">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="related-box">
+                            <div class="related-image">
+                                <img src="./assets/img/home/bestseller/bestseller-3.jpg" alt="">
+                            </div>
+                            <div class="related-content">
+                                <p> Facial Balancing Gel </p>
+                                <p>$ 25.00 </p>
+                            </div>
+                            <div class="related-icons-overlay">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3">
+                        <div class="related-box">
+                            <div class="related-image">
+                                <img src="./assets/img/home/bestseller/bestseller-4.jpg" alt="">
+                            </div>
+                            <div class="related-content">
+                                <p> Post-Shave Lotion </p>
+                                <p>$ 19.00 - $ 54.00</p>
+                            </div>
+                            <div class="related-icons-overlay">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div> 
+
+<hr>
+
+<div class="subscribe">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                <div class="sub-box">
+                    <div class="sub-image">
+                        <img src="./assets/img/email/Email.png" alt="">
+                    </div>
+                    <div class="sub-content ">
+                        <h3>Keep up to date with our advices</h3>
+                        <p>Subscribe now and thank us later</p>
+                        <div class="sub-input">
+                            <input type="text" placeholder="samavm@code.edu.az">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+               <div class="fbox">
+                <div class="footer-logo">
+                    <img src="assets/img/footer/logo-white.svg" alt="">
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+               </div>
+            
+                </div>
+                
+                <div class="col-lg-3 col-12">
+                    <div class="fbox">
+                        <h6>ABOUT</h6>
+                        <a href="">Career</a>
+                        <a href="">Stockists</a>
+                        <a href="">Shop Locator</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-12">
+                    <div class="fbox">
+                        <h6>HELP</h6>
+                        <a href="">Shipping & Returns</a>
+                        <a href="">Track Order</a>
+                        <a href="">FAQ</a>
+                        <a href="">Terms & Conditions</a>
+                        <a href="">Privacy Policy</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-12">
+                    <div class="fbox">
+                        <h6>We Don’t Keep Our Beauty Secrets</h6>
+                        <p>Subscribe now and thank us later</p>
+                        <div class="footer-input">
+                            <input type="text" placeholder="samavm@code.edu.az">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="copyright">
+            <div class="copyright-top">
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-stripe"></i>
+            </div>
+            <div class="copyright-bottom">
+            <p>© 2021 Beauty Store. All rights reserved.</p>
+            </div>
+            </div>
+        </footer>
+        <script src="assets/js/jquery.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="assets/js/script.js"></script>
 </body>
 </html>

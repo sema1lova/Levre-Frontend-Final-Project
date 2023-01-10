@@ -1,0 +1,169 @@
+.contact-slider{
+    background-image: url("../img/contact/contact-header/contact-header-1.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .contact-content{
+        text-align: start;
+        margin-left: 150px;
+        padding-top: 282px;
+        align-items: center;
+        h1{
+            width: 42%;
+            font-size: 40px;
+            color: $black;
+             letter-spacing: 3px;
+        }
+        p{
+            width: 37%;
+            // letter-spacing: 1px;
+            font-size: 22px;
+            margin-top: 30px;
+            color: $black;
+            line-height: 38px;
+        }
+    }
+}
+
+.getintouch{
+    margin:100px  auto;
+    .getintouch-left{
+        margin-right: 55px;
+        .getintouch-image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .getintouch-right{
+        margin-left: 55px;
+        .getintouch-content{
+            h1{
+                color: $black;
+            }
+            .main-p{
+                color: $black;
+                margin-top: 30px;  
+                font-size: 22px;   
+                width: 85%;        
+            }
+            .call-h6{
+                color: $black;  
+                margin-top: 40px;             
+            }
+            .call-p{
+                color: $black;
+                width: 35%;
+                line-height: 30px;
+                a{
+                    text-decoration: none;
+                    color: $black;
+                }
+            }
+            .email-h6{
+                color: $black;
+                margin-top: 40px;
+            }
+            .email-p{
+                color: $black;
+                margin-bottom: 55px;
+            }
+
+        }
+    }
+}
+
+.comeandvisit{
+    background-color: $pink-bgc;
+    padding: 100px 0;
+    .comeandvisit-left{
+        .comeandvisit-content{
+            .cav-h1{
+                color: $black;
+            }
+            .cav-main-p{
+                color: $black;
+                font-size: 22px;
+                letter-spacing: 1.3px;
+                margin-top: 22px;
+            }
+            .cav-hours-h6{
+                color: $black;
+                margin-top: 40px;
+            }
+            .cav-hours-p{
+                color: $black;
+            }
+            .cav-address-h6{
+                color: $black;
+                margin-top: 40px;
+            }
+            .cav-address-p{
+                color: $black;
+                margin-bottom: 66px;
+            }
+            .joinourteam__btn{
+                text-decoration: none;
+                padding: 16px 55px;
+                color: $black;
+                border: 1px solid $black;
+            }
+            .joinourteam__btn:hover{
+                background-color: $black;
+                color:$white;
+                transition: .4s;
+            }
+        }
+    }
+    .comeandvisit-right{
+        .comeandvisit-map{
+            iframe{
+                height: 600px;
+                filter: brightness(100%) 
+                contrast(100%) 
+                saturate(0%) 
+                blur(0px)
+                 hue-rotate(0deg);
+                 max-width: 100%;
+                 width: 100%;
+            }
+        }
+    }
+}
+
+.dropusaline{
+    margin: 100px 0;
+    .dropusaline-top{
+        .dropusaline-content{
+            h1{
+                color: $black;
+                font-size: 44px;
+                letter-spacing: 2.7px;
+            }
+            p{
+                margin: 22px auto;
+                line-height: 35px;
+                width: 40%;
+                font-size: 22px;
+                color: $black;
+            }
+        }
+    }
+
+    .dropusaline-bottom{
+        .dropusaline-btn{
+            .sendmessage__btn{
+                padding: 16px 45px;
+                text-decoration: none;
+                color: $white;
+                background-color: $black;
+                font-weight: 500;
+                transition: .4s;
+            }
+            .sendmessage__btn:hover{
+                opacity: .9;
+            }
+        }
+    }
+}
