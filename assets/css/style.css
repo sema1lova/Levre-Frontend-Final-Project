@@ -467,6 +467,44 @@
   text-decoration: none;
   margin-right: 44px;
   font-size: 17px;
+  color: #000;
+}
+.blog .blogg {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.blog .blogg .blogg-box {
+  margin-bottom: 40px;
+  margin-right: 35px;
+}
+.blog .blogg .blogg-box .blogg-image img {
+  width: 100%;
+}
+.blog .blogg .blogg-box .blogg-content {
+  text-align: center;
+  margin-top: 18px;
+}
+.blog .blogg .blogg-box .blogg-content a {
+  color: #000;
+  text-decoration: none;
+}
+.blog .blogg .blogg-box .blogg-content p {
+  color: #000;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.blog .blogg-btn a {
+  padding: 18px 55px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.blog .blogg-btn a:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .contact-slider {
@@ -1012,49 +1050,19 @@
   margin: 44px auto;
 }
 
-.whatmakesus .whatmakesus-left .whatmakesus-content .para-hide {
-  display: none;
+.whatmakesus .whatmakesus-left .whatmakesus-content h1 {
+  margin-bottom: 26px;
+  color: #000;
 }
-.whatmakesus .whatmakesus-left .whatmakesus-content button {
-  background: transparent;
-  outline: none;
-  border: none;
-  transition: 0.3s ease;
-  cursor: pointer;
+.whatmakesus .whatmakesus-left .whatmakesus-content .wmu-first-h6 {
+  margin-bottom: 18px;
+  color: #000;
 }
-.whatmakesus .whatmakesus-left .whatmakesus-content button i {
-  font-size: 1rem;
-  transition: 0.3s ease;
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content .rotate {
-  transform: rotate(180deg);
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content .accordion {
-  background: #efefef;
-  margin-bottom: 0.5rem;
-  transition: 0.3s ease;
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content button.btn-toggle-show {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  background: #d1d1d1;
-  transition: 0.3s ease;
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content button.btn-toggle-show:hover {
-  background: #c3c3c3;
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content button.btn-toggle-show span {
-  color: #333333;
-  font-size: 1rem;
-  font-weight: 700;
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content .p-1 {
-  padding: 1rem;
-}
-.whatmakesus .whatmakesus-left .whatmakesus-content .accordion:last-child {
-  margin: 0;
+.whatmakesus .whatmakesus-left .whatmakesus-content .wmu-first-p {
+  margin-top: 18px;
+  line-height: 30px;
+  width: 79%;
+  color: #000;
 }
 .whatmakesus .whatmakesus-right .whatmakesus-image img {
   width: 100%;
@@ -1082,6 +1090,40 @@
 .notfound .notfound-content a:hover {
   background-color: #000;
   color: #fff;
+}
+
+.blog-detail .bd-right {
+  background-color: #fcf3f6;
+  padding: 273px 0;
+}
+.blog-detail .bd-right .bd-content a {
+  color: #000;
+  text-decoration: none;
+}
+.blog-detail .bd-right .bd-content .bd-desc {
+  color: #000;
+  width: 66%;
+  letter-spacing: 1.3px;
+  line-height: 49px;
+  margin: 30px auto;
+}
+.blog-detail .bd-right .bd-content .bd-by {
+  color: #000;
+}
+
+.bd-about {
+  margin: 80px auto;
+}
+.bd-about .bd-about-content .bd-about-fp {
+  font-size: 19px;
+  width: 58%;
+  margin-bottom: 22px;
+  line-height: 33px;
+}
+.bd-about .bd-about-content .bd-about-sp {
+  font-size: 19px;
+  width: 58%;
+  line-height: 33px;
 }
 
 * {
