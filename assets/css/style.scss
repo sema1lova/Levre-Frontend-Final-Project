@@ -12,6 +12,8 @@
 @import "./wishlist.scss";
 @import "./page-notfound.scss";
 @import "./blog-detail.scss";
+@import "./terms&conditions";
+@import "./privacyPolicy";
 
 
 *{
@@ -92,10 +94,11 @@
     background-color: $white;
     color: $black;
     text-align: start !important;
-    min-width: 180px;
+    min-width: 200px;
     min-height: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-size: 15px;
   }
   .other-dropdown-content h6{
     text-align: start !important;
@@ -124,7 +127,7 @@ header{
     padding-top: 0 !important;
     margin-top: 0 !important;
     z-index: 1;
-      position: fixed;
+    position: fixed;
         top: 0;
         width: 100%;
     .head{

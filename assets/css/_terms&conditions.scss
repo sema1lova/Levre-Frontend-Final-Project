@@ -1,0 +1,38 @@
+.terms-slider {
+    background-image: url("../img/terms&conditions/terms&conditions.jpg");
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .terms-content {
+        text-align: start;
+        margin-left: 150px;
+        padding-top: 365px;
+        align-items: center;
+        h1 {
+            width: 42%;
+            font-size: 40px;
+            color: $black;
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.last-updated {
+    margin: 85px 0 50px;
+    .last-updated-content {
+        h1 {
+            color: $black;         
+            width: 54%;
+            margin: 20px auto;
+            }
+
+        .last-first-desc {
+            font-size: 18px;
+            color: $black;
+            width: 54%;
+            margin: 10px auto;
+            
+        }
+    }
+}

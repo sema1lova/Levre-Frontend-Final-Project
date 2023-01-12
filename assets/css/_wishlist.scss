@@ -1,0 +1,23 @@
+.wishlist{
+    margin-top: 135px;
+    margin-bottom: 60px;
+    .wishlist-content{
+        h1{
+            color: $black;
+        }
+    }
+    .wishlist-nav{
+        display: flex;
+        margin-top: 50px;
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        h6{
+            margin: 22px 70px 22px 70px;
+            // margin-left: 70px;
+            // margin-right: 70px;
+        }
+    }
+    .wishlist-p{
+        margin: 100px 0;
+    }
+}

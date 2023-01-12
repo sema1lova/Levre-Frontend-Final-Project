@@ -1,0 +1,127 @@
+.giftcard-slider{
+    background-image: url("../img/giftCards/giftCards-header/Gift-Cards-header.jpg");
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .giftcard-content{
+        text-align: start;
+        margin-left: 150px;
+        padding-top: 282px;
+        align-items: center;
+        h1{
+            width: 42%;
+            font-size: 40px;
+            color: $black;
+             letter-spacing: 3px;
+        }
+        p{
+            width: 40%;
+             letter-spacing: 1px;
+            font-size: 22px;
+            margin-top: 30px;
+            color: $black;
+        }
+    }
+}
+
+
+.easytogive{
+    margin-top: 80px;
+    .easytogive-left{
+        .easytogive-box{ 
+            margin-bottom: 22px;
+            display: flex;
+            // justify-content: space-evenly;
+            .easytogive-box-image{
+                svg{
+                    margin-top: 22px;
+                }
+                margin-right: 55px;
+                background-color: $pink-bgc;
+                text-align: center;
+                width: 15%;
+                height: 100px;
+                border-radius: 50%;
+            }
+            
+            .easytogive-content{
+                h4{
+                    margin-bottom: 11px;
+                    color: $black;
+                }
+                p{
+                    color: $black;
+                    font-size: 17px;
+                    width: 55%;
+                }
+            }
+        }
+    }
+    .easytogive-right{
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        .easytogive-image{
+            img{
+                width: 100%;
+            }
+        }
+        // text-align: center;
+    }
+}
+
+.egiftcard{
+    margin: 70px 0;
+    background-color: $pink-bgc;
+    padding: 80px 0;
+    // display: flex;
+    // justify-content: space-around;
+    .egiftcard-left{
+        margin-right: 60px;
+        .egiftcard-image{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .egiftcard-right{
+        margin-left: 60px;
+    .egiftcard-content{
+        h1{
+            color: $black;
+        }
+        p{
+            color: $black;
+            line-height: 35px;
+            font-size: 22px;
+            margin: 35px 0 70px 0;
+            width: 85%;
+        }
+    }
+   }
+}
+
+
+.physicalgiftcard{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    .physicalgiftcard-content{
+        // margin-left: 100px;
+        h1{
+            color: $black;
+            margin-bottom: 26px;
+        }
+        p{
+            color: $black;
+            line-height: 35px;
+            font-size: 21.5px;
+            margin-bottom: 42px;
+        }
+    }
+    .physicalgiftcard-image{
+        img{
+            width: 100%;
+        }
+    }
+}

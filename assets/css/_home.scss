@@ -247,20 +247,20 @@
             }
         }
     }
-    .blog-btn{
-        a{
-            padding: 18px 55px;
-             border: 1px solid $black;
-             text-decoration: none;
-             color: $black;
-             font-weight: 500;
-             transition: .3s;
+        .blog-btn{
+            a{
+                padding: 18px 55px;
+                border: 1px solid $black;
+                text-decoration: none;
+                color: $black;
+                font-weight: 500;
+                transition: .3s;
+            }
+            a:hover{
+                background-color:$black;
+                color: $white;
+            }
         }
-        a:hover{
-            background-color:$black;
-            color: $white;
-        }
-    }
 }
 
 //service

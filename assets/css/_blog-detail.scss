@@ -38,13 +38,105 @@
         .bd-about-fp{
             font-size: 19px;
             width: 58%;
-            margin-bottom: 22px;
-                line-height: 33px;
+            // margin-bottom: 22px;
+                line-height: 33.5px;
+                margin: auto;
         }
         .bd-about-sp{
             font-size: 19px;
             width: 58%;
-                line-height: 33px;
+                line-height: 33.5px;
+                margin: 22px  auto;
+        }
+    }
+}
+
+.bd-center-image{
+    // margin: 0 auto;
+    .bd-c-image{
+        // margin-bottom: 50px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.bd-about-second{
+    .bd-about-spd{
+        p{
+            font-size: 19px;
+            width: 58%;
+            margin: 80px auto;
+            line-height: 33.5px;
+        }
+    }
+}
+
+.bd-bottom-image{
+    .bd-bottom-images{
+        margin: 0 auto;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.bd-about-third{
+    margin: 80px auto;
+    // margin: 1px auto;
+    .bd-about-third-content{
+        .bd-about-tfp{
+            font-size: 19px;
+            width: 58%;
+            // margin-bottom: 22px;
+                line-height: 33.5px;
+                margin: auto;
+        }
+        .bd-about-tsp{
+            font-size: 19px;
+            width: 58%;
+                line-height: 33.5px;
+                margin: 22px  auto;
+        }
+    }
+}
+
+.bd-tag{
+    .bd-tag-title{
+        h1{
+            color: $black;
+        }
+        .tags{
+            margin-top: 40px;
+            margin-bottom: 100px;
+            a{
+                text-decoration: none;
+                color: $black;
+                border: 1px solid $black;
+                padding: 11px 22px;
+                margin: 0 10px 0 10px;
+            }
+        }
+    }
+}
+
+.bd-links{
+    .bd-share-title{
+        margin-bottom: 100px;
+        h3{
+            color: $black;
+            margin-bottom: 30px;
+        }
+        a{
+            transition: .4s;
+            margin: 0 10px 0 10px;
+            i{
+                font-size: 22px;
+                color: $black;
+            }
+        }
+        a:hover{
+            opacity: .8;
         }
     }
 }

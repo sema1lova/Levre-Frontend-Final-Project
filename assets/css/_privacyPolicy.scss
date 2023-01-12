@@ -1,0 +1,38 @@
+.policy-slider {
+    background-image: url("../img/privacyPolicy/privacyPolicy.jpg");
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .policy-content {
+        text-align: start;
+        margin-left: 150px;
+        padding-top: 355px;
+        align-items: center;
+        h1 {
+            width: 42%;
+            font-size: 40px;
+            color: $black;
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.policy-updated {
+    margin: 85px 0 50px;
+    .policy-updated-content {
+        h1 {
+            color: $black;  
+            width: 54%;
+            margin: 20px auto;
+            }
+
+        .policy-first-desc {
+            font-size: 18px;
+            color: $black;
+            width: 54%;
+            margin: 10px auto;
+        }
+
+    }
+}
