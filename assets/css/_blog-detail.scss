@@ -1,11 +1,11 @@
 .blog-detail{
-    .bd-left{
-        .bd-image{
-            img{
+    // .bd-left{
+    //     .bd-image{
+    //         img{
 
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
     .bd-right{
         background-color: $pink-bgc;
@@ -138,5 +138,10 @@
         a:hover{
             opacity: .8;
         }
+    }
+}
+.post-comment{
+    .comment-content{
+        text-align: start;
     }
 }

@@ -1,7 +1,7 @@
 .slider{
     background-image: url("../img/home/first-slider/slider-1.jpg");
     height: 100vh;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     // z-index: -111;
@@ -30,7 +30,7 @@
                 margin-right: 16px;
                 padding: 20px 45px;
                 text-decoration: none;
-                color: $black;
+                color: $black !important;
                 font-weight: 500;
                 font-size: 19px;
             }
@@ -67,33 +67,29 @@
 
 
 .sustainability{
+    padding: 40px 0;
     background-color: $sustainability-bgc;
     .sus{
         display: flex;
         // align-items: center;
         justify-content: space-around;
     .sus-left{
-        width: 50%;
         .sus-image{
-            // width: 80%;
             img{
                 width: 70%;
             }
         }
     }
     .sus-right{
-        width: 60%;
         .sus-content{
-            // margin-left: 150px;
-            margin: auto;
             h1{
                 font-size: 44px;
-                width: 50%;
+                width: 80%;
                 margin-bottom: 33px;
                 color: $black;
             }
             p{
-                width: 70%;
+                width: 86%;
                 font-size: 22px;
                 margin-bottom: 66px;
                 color: $black;

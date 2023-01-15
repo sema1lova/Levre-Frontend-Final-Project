@@ -31,15 +31,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin: 35px 0;
         .bs-left{
             p{
                 color: $black;
                 font-size: 18px;
+                a{
+                    color: $black;
+                    font-size: 18px;
+                    text-decoration: none;
+                }
             }
         }
         .bs-right{
             .woocommerce-ordering{
                 .orderby{
+                    outline: none;
                     padding: 15px;
                     color: $black;
                     border: 1px solid $black;
@@ -194,3 +201,8 @@
         }
     }
 }
+
+
+// .shophr{
+//      width:95%;
+// }
