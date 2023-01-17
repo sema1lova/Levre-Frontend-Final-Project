@@ -878,13 +878,7 @@
 }
 
 .blog {
-  margin: 80px 0;
-}
-.blog .blog-filter a {
-  text-decoration: none;
-  margin-right: 44px;
-  font-size: 17px;
-  color: #000;
+  margin: 50px 0;
 }
 .blog .blogg {
   display: flex;
@@ -924,6 +918,9 @@
   color: #fff;
 }
 
+.blog-detail {
+  display: flex;
+}
 .blog-detail .bd-right {
   background-color: #fcf3f6;
   padding: 273px 0;
@@ -1029,6 +1026,28 @@
 
 .post-comment .comment-content {
   text-align: start;
+}
+.post-comment #contact-form-2 {
+  width: 75%;
+  margin: 0 auto;
+}
+.post-comment #contact-form-2 .formm-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-comment #contact-form-2 .first-input-2 {
+  width: 75%;
+  margin-top: 18px;
+  outline: none;
+  padding: 12px 40px 12px 8px;
+  border: 1px solid #000;
+}
+.post-comment #contact-form-2 .second-input-2 {
+  width: 91.7%;
+  margin-top: 18px;
+  outline: none;
+  padding: 12px 40px 12px 8px;
+  border: 1px solid #000;
 }
 
 .giftcard-slider {
@@ -1267,6 +1286,33 @@
   width: 40%;
   font-size: 22px;
   color: #000;
+}
+.dropusaline .dropusaline-bottom {
+  text-align: center;
+}
+.dropusaline .dropusaline-bottom #contact-form {
+  width: 75%;
+  margin: 0 auto;
+}
+.dropusaline .dropusaline-bottom #contact-form .formm {
+  display: flex;
+}
+.dropusaline .dropusaline-bottom #contact-form .first-input {
+  width: 75%;
+  margin-top: 18px;
+  outline: none;
+  padding: 12px 40px 12px 8px;
+  border: 1px solid #000;
+}
+.dropusaline .dropusaline-bottom #contact-form .second-input {
+  width: 91.7%;
+  margin-top: 18px;
+  outline: none;
+  padding: 12px 40px 12px 8px;
+  border: 1px solid #000;
+}
+.dropusaline .dropusaline-bottom .dropusaline-btn {
+  margin-top: 50px;
 }
 .dropusaline .dropusaline-bottom .dropusaline-btn .sendmessage__btn {
   padding: 16px 45px;
@@ -1694,9 +1740,39 @@ footer .copyright .copyright-bottom p {
   display: none;
 }
 
+.mobile-header {
+  display: none;
+}
+
 @media (max-width: 576px) {
   header {
     display: none;
+  }
+  .mobile-header {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .mobile-header .mobile {
+    padding: 20px 0;
+    transition: 0.3s;
+  }
+  .mobile-header .mobile:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .mobile-header .mobile.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  .mobile-header .mobile.scrolled a {
+    color: #000 !important;
+  }
+  .mobile-header .mobile-header-icons i {
+    font-size: 22px;
+    margin-left: 22px;
   }
   footer {
     padding: 44px 15px;
@@ -1858,7 +1934,7 @@ footer .copyright .copyright-bottom p {
   .slider .slider-content {
     text-align: start;
     margin-left: 20px;
-    padding-top: 66px;
+    padding-top: 55px;
   }
   .slider .slider-content h1 {
     width: 75%;
@@ -2573,15 +2649,7 @@ footer .copyright .copyright-bottom p {
     color: #fff;
   }
   .blog {
-    margin: 40px auto 60px auto;
-  }
-  .blog .blog-filter a {
-    text-decoration: none;
-    margin-right: 22px;
-    font-size: 16.5px;
-    font-weight: 500;
-    color: #000;
-    line-height: 44px;
+    margin: 20px auto 60px auto;
   }
   .blog .blogg {
     display: flex;
@@ -2969,6 +3037,32 @@ footer .copyright .copyright-bottom p {
     font-size: 17px;
     color: #000;
   }
+  .dropusaline .dropusaline-bottom {
+    text-align: center;
+  }
+  .dropusaline .dropusaline-bottom #contact-form {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .dropusaline .dropusaline-bottom #contact-form .formm {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .dropusaline .dropusaline-bottom #contact-form .first-input {
+    width: 100%;
+    margin-top: 18px;
+    outline: none;
+    padding: 12px 40px 12px 8px;
+    border: 1px solid #000;
+  }
+  .dropusaline .dropusaline-bottom #contact-form .second-input {
+    width: 100%;
+    margin-top: 18px;
+    outline: none;
+    padding: 12px 40px 12px 8px;
+    border: 1px solid #000;
+  }
   .dropusaline .dropusaline-bottom .dropusaline-btn .sendmessage__btn {
     padding: 16px 25px !important;
     text-decoration: none;
@@ -3061,6 +3155,32 @@ footer .copyright .copyright-bottom p {
 @media (min-width: 768px) and (max-width: 992px) {
   header {
     display: none !important;
+  }
+  .mobile-header {
+    display: block;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .mobile-header .mobile {
+    padding: 20px 0;
+    transition: 0.3s;
+  }
+  .mobile-header .mobile:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .mobile-header .mobile.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  .mobile-header .mobile.scrolled a {
+    color: #000 !important;
+  }
+  .mobile-header .mobile-header-icons i {
+    font-size: 24px;
+    margin-left: 22px;
   }
   footer {
     padding: 44px 15px;
@@ -3945,14 +4065,6 @@ footer .copyright .copyright-bottom p {
   .blog {
     margin: 40px auto 60px auto;
   }
-  .blog .blog-filter a {
-    text-decoration: none;
-    margin-right: 28px;
-    font-size: 17px;
-    font-weight: 500;
-    color: #000;
-    line-height: 44px;
-  }
   .blog .blogg {
     display: flex;
     flex-wrap: wrap;
@@ -4087,9 +4199,6 @@ footer .copyright .copyright-bottom p {
   .bd-links .bd-share-title a i {
     font-size: 22px;
     color: #000;
-  }
-  .post-comment .comment-content {
-    text-align: start;
   }
   .giftcard-slider {
     background-image: url("../img/giftCards/giftCards-header/Gift-Cards-header.jpg");
@@ -4365,6 +4474,32 @@ footer .copyright .copyright-bottom p {
     width: 96%;
     font-size: 20px;
     color: #000;
+  }
+  .dropusaline .dropusaline-bottom {
+    text-align: center;
+  }
+  .dropusaline .dropusaline-bottom #contact-form {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .dropusaline .dropusaline-bottom #contact-form .formm {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .dropusaline .dropusaline-bottom #contact-form .first-input {
+    width: 100%;
+    margin-top: 18px;
+    outline: none;
+    padding: 12px 40px 12px 8px;
+    border: 1px solid #000;
+  }
+  .dropusaline .dropusaline-bottom #contact-form .second-input {
+    width: 100%;
+    margin-top: 18px;
+    outline: none;
+    padding: 12px 40px 12px 8px;
+    border: 1px solid #000;
   }
   .dropusaline .dropusaline-bottom .dropusaline-btn .sendmessage__btn {
     padding: 16px 25px !important;

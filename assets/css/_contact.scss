@@ -134,6 +134,7 @@
 
 .dropusaline{
     margin: 100px 0;
+    
     .dropusaline-top{
         .dropusaline-content{
             h1{
@@ -152,7 +153,32 @@
     }
 
     .dropusaline-bottom{
+        text-align: center;
+            #contact-form{
+                width: 75%;
+                margin: 0 auto;
+                .formm{
+                    display: flex;
+                }
+                .first-input{
+                            width: 75%;
+                        margin-top: 18px;
+                        outline: none;
+                        padding: 12px 40px 12px 8px;
+                        border: 1px solid $black;
+                }
+                .second-input{
+                    width: 91.7%;
+                    margin-top: 18px;
+                    outline: none;
+                    padding: 12px 40px 12px 8px;
+                    border: 1px solid $black;
+                    // color: $white;
+                }
+            }
+
         .dropusaline-btn{
+            margin-top: 50px;
             .sendmessage__btn{
                 padding: 16px 45px;
                 text-decoration: none;
@@ -167,3 +193,5 @@
         }
     }
 }
+
+

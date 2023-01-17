@@ -6,7 +6,7 @@
     //         }
     //     }
     // }
-
+    display: flex;
     .bd-right{
         background-color: $pink-bgc;
         padding: 273px 0;
@@ -140,8 +140,35 @@
         }
     }
 }
+
 .post-comment{
     .comment-content{
         text-align: start;
+    }
+
+    #contact-form-2{
+        // text-align: center;
+            width: 75%;
+            margin: 0 auto;
+            .formm-2{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .first-input-2{
+                        width: 75%;
+                    margin-top: 18px;
+                    outline: none;
+                    padding: 12px 40px 12px 8px;
+                    border: 1px solid $black;
+            }
+            .second-input-2{
+                width: 91.7%;
+                margin-top: 18px;
+                outline: none;
+                padding: 12px 40px 12px 8px;
+                border: 1px solid $black;
+                // color: $white;
+            }
+
     }
 }
