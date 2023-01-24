@@ -36,7 +36,10 @@
                     border: 1px solid $black;
                     padding: 10px 35px;
                     margin-right: 25px;
+                    user-select: none;
+                    -webkit-user-drag: none;
                     .span-minus{
+                        cursor: pointer;
                         font-size: 28px;
                         margin-right: 8px;
                     }
@@ -44,6 +47,7 @@
                         font-size: 22px;
                     }
                     .span-plus{
+                        cursor: pointer;
                         font-size: 28px;
                         margin-left: 8px;
                     }

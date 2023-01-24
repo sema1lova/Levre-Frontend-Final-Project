@@ -81,22 +81,7 @@ $('.blogs').slick({
 
 
 
-// navbar scroll color change
 
-$(function () {
-    $(document).scroll(function () {
-        var $nav = $(".head");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-      });
-  });
-
-  // mobile scroll color change
-  $(function () {
-    $(document).scroll(function () {
-        var $mobile = $(".mobile");
-        $mobile.toggleClass('scrolled', $(this).scrollTop() > $mobile.height());
-      });
-  });
 
 //filter by price slider range
 //-----JS for Price Range slider-----
@@ -126,3 +111,5 @@ function toggleText(element) {
     $(this).find("i").toggleClass("rotate");
   }
 } 
+
+

@@ -153,21 +153,18 @@
             .formm-2{
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
             }
             .first-input-2{
-                        width: 75%;
+                    width: 100%;
                     margin-top: 18px;
                     outline: none;
                     padding: 12px 40px 12px 8px;
                     border: 1px solid $black;
-            }
-            .second-input-2{
-                width: 91.7%;
-                margin-top: 18px;
-                outline: none;
-                padding: 12px 40px 12px 8px;
-                border: 1px solid $black;
-                // color: $white;
+                }
+      
+            .second-in{
+                width: 100%;
             }
 
     }

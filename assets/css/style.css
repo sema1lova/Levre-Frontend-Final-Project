@@ -300,22 +300,6 @@
 .shop .shop-left .filter-bycategory {
   color: #000;
 }
-.shop .shop-left .filter-byprice .filterprice-p {
-  color: #000;
-  margin-bottom: 35px;
-}
-.shop .shop-left .filter-byprice .filterpricebtn {
-  font-weight: 500;
-  text-decoration: none;
-  padding: 20px 45px;
-  color: #000;
-  border: 1px solid #000;
-}
-.shop .shop-left .filter-byprice .filterpricebtn:hover {
-  background-color: #000;
-  color: #fff;
-  transition: 0.4s;
-}
 .shop .shop-left .filter-byprice .price-range-slider {
   width: 100%;
   float: left;
@@ -333,29 +317,6 @@
   box-shadow: none;
   border: none;
   margin: 20px 0 20px 0;
-}
-.shop .shop-left .filter-byprice .price-range-slider .range-bar {
-  border: none;
-  background: #000;
-  height: 3px;
-  width: 96%;
-  margin-left: 8px;
-}
-.shop .shop-left .filter-byprice .price-range-slider .range-bar .ui-slider-range {
-  background: #000;
-}
-.shop .shop-left .filter-byprice .price-range-slider .range-bar .ui-slider-handle {
-  border: none;
-  border-radius: 25px;
-  background: #fff;
-  border: 2px solid #000;
-  height: 17px;
-  width: 17px;
-  top: -0.52em;
-  cursor: pointer;
-}
-.shop .shop-left .filter-byprice .price-range-slider .range-bar .ui-slider-handle + span {
-  background: #000;
 }
 .shop .shop-right {
   display: flex;
@@ -452,8 +413,14 @@
   border: 1px solid #000;
   padding: 10px 35px;
   margin-right: 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
 }
 .product .product-right .product-content .pro-title .pro-left .span-minus {
+  cursor: pointer;
   font-size: 28px;
   margin-right: 8px;
 }
@@ -461,6 +428,7 @@
   font-size: 22px;
 }
 .product .product-right .product-content .pro-title .pro-left .span-plus {
+  cursor: pointer;
   font-size: 28px;
   margin-left: 8px;
 }
@@ -1034,20 +1002,17 @@
 .post-comment #contact-form-2 .formm-2 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .post-comment #contact-form-2 .first-input-2 {
-  width: 75%;
+  width: 100%;
   margin-top: 18px;
   outline: none;
   padding: 12px 40px 12px 8px;
   border: 1px solid #000;
 }
-.post-comment #contact-form-2 .second-input-2 {
-  width: 91.7%;
-  margin-top: 18px;
-  outline: none;
-  padding: 12px 40px 12px 8px;
-  border: 1px solid #000;
+.post-comment #contact-form-2 .second-in {
+  width: 100%;
 }
 
 .giftcard-slider {
@@ -1298,14 +1263,14 @@
   display: flex;
 }
 .dropusaline .dropusaline-bottom #contact-form .first-input {
-  width: 75%;
+  width: 100%;
   margin-top: 18px;
   outline: none;
   padding: 12px 40px 12px 8px;
   border: 1px solid #000;
 }
 .dropusaline .dropusaline-bottom #contact-form .second-input {
-  width: 91.7%;
+  width: 100%;
   margin-top: 18px;
   outline: none;
   padding: 12px 40px 12px 8px;
@@ -1438,6 +1403,33 @@
 .notfound .notfound-content a:hover {
   background-color: #000;
   color: #fff;
+}
+
+.login {
+  margin: 220px 0;
+}
+.login .login-title {
+  text-align: center;
+}
+.login .login-title h1 {
+  color: #000;
+}
+.login form .form-group input {
+  border: 1px solid #000;
+  border-radius: 0%;
+  margin-top: 30px;
+  outline: none;
+  width: 100%;
+  padding: 14px 0px 14px 14px;
+}
+.login form .form-group ::-moz-placeholder {
+  color: #000 !important;
+}
+.login form .form-group :-ms-input-placeholder {
+  color: #000 !important;
+}
+.login form .form-group ::placeholder {
+  color: #000 !important;
 }
 
 * {

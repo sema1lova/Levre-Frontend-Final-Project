@@ -65,23 +65,23 @@
            color: $black;
         }
         .filter-byprice{
-            .filterprice-p{
-                color:$black ;
-                margin-bottom: 35px;
-            }
-            .filterpricebtn{
-                font-weight: 500;
-                text-decoration: none;
-                padding: 20px 45px;
-                color: $black;
-                border: 1px solid $black;
-            }
+            // .filterprice-p{
+            //     color:$black ;
+            //     margin-bottom: 35px;
+            // }
+            // .filterpricebtn{
+            //     font-weight: 500;
+            //     text-decoration: none;
+            //     padding: 20px 45px;
+            //     color: $black;
+            //     border: 1px solid $black;
+            // }
             
-            .filterpricebtn:hover{
-                background-color: $black;
-                color:$white;
-                transition: .4s;
-            }
+            // .filterpricebtn:hover{
+            //     background-color: $black;
+            //     color:$white;
+            //     transition: .4s;
+            // }
 
             
             .price-range-slider {
@@ -101,32 +101,7 @@
                         margin: 20px 0 20px 0;
                     }
                 }
-                
-                .range-bar {
-                    border: none;
-                    background: $black;
-                    height: 3px;	
-                    width: 96%;
-                    margin-left: 8px;
-                    
-                    .ui-slider-range {
-                        background:$black;
-                    }
-                    
-                    .ui-slider-handle {
-                        border:none;
-                        border-radius:25px;
-                        background:$white;
-                        border:2px solid $black;
-                        height:17px;
-                        width:17px;
-                        top: -0.52em;
-                        cursor:pointer;
-                    }
-                    .ui-slider-handle + span {
-                        background:$black;
-                    }
-                }
+
             }
         }
     }

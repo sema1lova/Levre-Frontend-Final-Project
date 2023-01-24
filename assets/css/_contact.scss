@@ -161,14 +161,15 @@
                     display: flex;
                 }
                 .first-input{
-                            width: 75%;
+                            width: 100%;
                         margin-top: 18px;
                         outline: none;
                         padding: 12px 40px 12px 8px;
                         border: 1px solid $black;
                 }
                 .second-input{
-                    width: 91.7%;
+                    // width: 91.7%;
+                    width: 100%;
                     margin-top: 18px;
                     outline: none;
                     padding: 12px 40px 12px 8px;
