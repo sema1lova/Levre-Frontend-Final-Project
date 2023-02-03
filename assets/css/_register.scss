@@ -1,0 +1,50 @@
+.register{
+    margin: 90px 0;
+    .register-title{
+        text-align: left;
+        h1{
+            color: $black;
+        }
+    }
+    form{
+        // text-align: center;
+        // margin: 0 auto;
+        .form-group{
+            input{
+                border: 1px solid $black;
+                border-radius: 0%;
+                margin-top: 25px;
+                outline: none;
+                width: 100%;
+                padding: 14px 0px 14px 14px;
+                }
+                ::placeholder{
+                color: $black !important;
+                }
+        }
+    }
+    .btn-user2{
+        // padding: 14px 0px 0px 14px;
+        padding: 14px;
+        width: 100%;    
+        // outline: none;
+        border: 1px solid $black;
+        background-color: $black;
+        color: $white;
+        font-weight: 500;
+        transition: .3s;
+        margin-top: 18px;
+        &:hover{
+            opacity: .9;
+        }
+    }
+    .logreg-p1{
+        margin-top: 15px;
+    }
+    .logreg-p2{
+        margin-bottom: 25px;
+    }
+    // .dont-text{
+    //     text-align: center !important;
+    // }
+}

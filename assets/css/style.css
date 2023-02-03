@@ -1406,10 +1406,10 @@
 }
 
 .login {
-  margin: 220px 0;
+  margin: 150px 0;
 }
 .login .login-title {
-  text-align: center;
+  text-align: left;
 }
 .login .login-title h1 {
   color: #000;
@@ -1430,6 +1430,76 @@
 }
 .login form .form-group ::placeholder {
   color: #000 !important;
+}
+.login form .form-group2 .custom-checkbox {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  margin: 15px;
+}
+.login .btn-user {
+  padding: 14px;
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.login .btn-user:hover {
+  opacity: 0.9;
+}
+.login .logreg-p1 {
+  margin-top: 15px;
+}
+.login .logreg-p2 {
+  margin-bottom: 25px;
+}
+
+.register {
+  margin: 90px 0;
+}
+.register .register-title {
+  text-align: left;
+}
+.register .register-title h1 {
+  color: #000;
+}
+.register form .form-group input {
+  border: 1px solid #000;
+  border-radius: 0%;
+  margin-top: 25px;
+  outline: none;
+  width: 100%;
+  padding: 14px 0px 14px 14px;
+}
+.register form .form-group ::-moz-placeholder {
+  color: #000 !important;
+}
+.register form .form-group :-ms-input-placeholder {
+  color: #000 !important;
+}
+.register form .form-group ::placeholder {
+  color: #000 !important;
+}
+.register .btn-user2 {
+  padding: 14px;
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+  margin-top: 18px;
+}
+.register .btn-user2:hover {
+  opacity: 0.9;
+}
+.register .logreg-p1 {
+  margin-top: 15px;
+}
+.register .logreg-p2 {
+  margin-bottom: 25px;
 }
 
 * {
@@ -1765,6 +1835,25 @@ footer .copyright .copyright-bottom p {
   .mobile-header .mobile-header-icons i {
     font-size: 22px;
     margin-left: 22px;
+  }
+  .mobile-header #sideBar {
+    transition: 0.7s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+  }
+  .mobile-header .open-side-bar {
+    background-color: #fff !important;
+  }
+  .mobile-header .open-side-bar a {
+    text-decoration: none;
+    margin-bottom: 7px;
+    color: #000;
+    font-size: 17px;
+    display: block;
+    font-weight: 500;
   }
   footer {
     padding: 44px 15px;
@@ -2322,7 +2411,7 @@ footer .copyright .copyright-bottom p {
   .ourstory-slider .ourstory-content {
     text-align: start;
     margin-left: 20px;
-    padding-top: 100px;
+    padding-top: 60px;
   }
   .ourstory-slider .ourstory-content h1 {
     color: #000;

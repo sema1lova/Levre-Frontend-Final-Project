@@ -112,4 +112,25 @@ function toggleText(element) {
   }
 } 
 
+//Mobile sideBar
 
+// let bar = document.querySelector('.mobile-bar');
+
+// bar.onclick = function Bars() {  
+// if (document.getElementById('sideBar').className == 'side-bar') {
+//    document.getElementById('sideBar').className = 'open-side-bar'
+// }else{
+//    document.getElementById('sideBar').className = 'side-bar'
+// }
+
+// }
+
+function Open(){
+  var sidebar = document.getElementById('sideBar');
+  sidebar.style.transform = 'translateX(0%)';
+}
+
+function Close(){
+  var sidebar = document.getElementById('sideBar');
+  sidebar.style.transform = 'translateX(100%)'
+}

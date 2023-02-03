@@ -378,7 +378,9 @@ footer {
 .mobile-header{
     display: none;
 }
-
+// .open-side-bar{
+//     display: none;
+// }
 @media (max-width:576px) {
     // body{
     //     overflow-x: hidden !important;
@@ -429,6 +431,27 @@ footer {
                 margin-left: 22px;
             }
         }
+        #sideBar{
+            transition: .7s;  
+            height: 100%;
+            width: 100%;
+            top: 0;
+            right: 0;
+            transform: translateX(100%);
+        }
+        
+        .open-side-bar{
+            background-color: $white !important;
+            // transform: translateX(-100%);
+            a{
+                text-decoration: none;
+                margin-bottom: 7px;
+                color: $black;
+                font-size: 17px;
+                display: block;
+                font-weight: 500;
+            }
+          }
     }
 
 
@@ -1232,7 +1255,7 @@ footer {
         .ourstory-content{
             text-align: start;
             margin-left: 20px;
-            padding-top: 100px;
+            padding-top: 60px;
             h1{
                 color: $black;
                  letter-spacing: 1.2px;
