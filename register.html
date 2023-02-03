@@ -59,8 +59,15 @@
                     <div class="icons">
                         <i class="icon fa-solid fa-magnifying-glass"></i>
                         <i class="icon fa-regular fa-heart"></i>
-                        <i class="icon fa-regular fa-user"></i>
-                        <i class="bag fa-solid fa-bag-shopping"></i>
+                        <a class="text-decoration-none text-black" href="login.html">
+                            <i class="icon fa-regular fa-user"></i>
+                        </a>
+                        <!-- <span onclick="OpenCart()"> -->
+                            <a class="text-decoration-none text-black" href="cart.html">
+                            <i class="bag fa-solid fa-bag-shopping"></i>
+                            </a>
+                        <!-- </span> -->
+                    
                         <span class="cart-count">0</span>
                     </div>
                 </div>
@@ -86,11 +93,13 @@
                         </div>
                     </div>
                 </div>
-                <div  id="sideBar" class="side-bar">
+                <div id="sideBar" class="side-bar">
                     <div class="open-side-bar text-center">
-                        <span style="text-align: end; font-weight: 
+                        <span
+                            style="text-align: end; font-weight:
                         500; font-size: large; margin-bottom: 22px;
-                        cursor: progress;" onclick="Close()">Close -> X</span>
+                        cursor: progress;"
+                            onclick="Close()">Close -> X</span>
                         <a href="home.html">Home</a>
                         <a href="shop.html">Shop</a>
                         <a href="product.html">Products</a>
@@ -113,10 +122,10 @@
         <div class="register ">
             <div class="container">
                 <div class="row d-flex  justify-content-center">
-                    <div class="text-center register-title">
-                        <h1>Register</h1>
-                    </div>
                     <div class="col-lg-4 col-md-9 col-11">
+                        <div class="text-center register-title">
+                            <h1>Register</h1>
+                        </div>
                         <form action="">
                             <div class="form-group">
                                 <input type="text" class=" form-control-user" placeholder="Fullname * ">
@@ -136,6 +145,9 @@
                                     class=" form-control-user"
                                     placeholder="Confirm Password * ">
                             </div>
+                            <a class=" text-center text-decoration-none text-black fw-semibold" href="login.html">
+                                <p class="mt-4">Sign in instead</p>
+                                </a>
                             <button type="submit" class=" btn-user2 btn-block">Register</button>
                         </form>
                     </div>

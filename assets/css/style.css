@@ -1807,6 +1807,9 @@ footer .copyright .copyright-bottom p {
 }
 
 @media (max-width: 576px) {
+  .open-cart-side-bar {
+    display: none;
+  }
   header {
     display: none;
   }
@@ -3234,6 +3237,9 @@ footer .copyright .copyright-bottom p {
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  .open-cart-side-bar {
+    display: none;
+  }
   header {
     display: none !important;
   }

@@ -134,3 +134,14 @@ function Close(){
   var sidebar = document.getElementById('sideBar');
   sidebar.style.transform = 'translateX(100%)'
 }
+// Cart Side Bar
+
+function OpenCart(){
+  var sidebar = document.getElementById('sideBar');
+  sidebar.style.transform = 'translateX(0%)';
+}
+
+function CloseCart(){
+  var sidebar = document.getElementById('sideBar');
+  sidebar.style.transform = 'translateX(100%)'
+}
