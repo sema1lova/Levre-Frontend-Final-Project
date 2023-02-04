@@ -13,7 +13,6 @@
 </head>
 <body>
     
-
     <header>
         <div class="head row align-items-center">
             <div class="col-lg-2">
@@ -31,30 +30,41 @@
                     <a href="blog.html">Blog</a>
                     <a href="giftCards.html">Gift Cards</a>
                     <a href="contact.html">Contact</a>
-    
+
                     <div class="other-dropdown">
                         <a href="" class="other-dropbtn">Other</a>
                         <div class="other-dropdown-content">
-                          <a href="myAccount.html"> My account</a>
-                          <a href="wishlist.html">Wishlist</a>
-                          <a href="cart.html">Cart</a>
-                          <a href="terms&conditions.html">Terms & conditions</a>
-                          <a href="privacyPolicy.html">Privacy Policy</a>
+                            <a href="myAccount.html">
+                                My account</a>
+                            <a href="wishlist.html">Wishlist</a>
+                            <a href="cart.html">Cart</a>
+                            <a href="terms&conditions.html">Terms & conditions</a>
+                            <a href="privacyPolicy.html">Privacy Policy</a>
+                            <a href="login.html">Login</a>
+                            <a href="register.html">Register</a>
                         </div>
-                      </div> 
+                    </div>
                 </nav>
             </div>
             <div class="col-lg-3">
                 <div class="icons">
                     <i class="icon fa-solid fa-magnifying-glass"></i>
                     <i class="icon fa-regular fa-heart"></i>
-                    <i class="icon fa-regular fa-user"></i>
-                    <i class="bag fa-solid fa-bag-shopping"></i>
+                    <a class="text-decoration-none text-black" href="login.html">
+                        <i class="icon fa-regular fa-user"></i>
+                    </a>
+                    <!-- <span onclick="OpenCart()"> -->
+                        <a class="text-decoration-none text-black" href="cart.html">
+                        <i class="bag fa-solid fa-bag-shopping"></i>
+                        </a>
+                    <!-- </span> -->
+                
                     <span class="cart-count">0</span>
                 </div>
             </div>
         </div>
     </header>
+
     <div class="mobile-header">
         <div class="container">
             <div class="row mobile pt-3 pb-3 ">
@@ -67,8 +77,35 @@
                     <div class="mobile-header-icons">
                         <i class="mobile-bag fa-solid fa-bag-shopping"></i>
                         <!-- <span class="cart-count">0</span> -->
-                        <i class="mobile-bar fa-solid fa-bars"></i>
+                        <span onclick="Open()">
+                            <i class="mobile-bar fa-solid fa-bars"></i>
+                        </span>
+
                     </div>
+                </div>
+            </div>
+            <div id="sideBar" class="side-bar">
+                <div class="open-side-bar text-center">
+                    <span
+                        style="text-align: end; font-weight:
+                    500; font-size: large; margin-bottom: 22px;
+                    cursor: progress;"
+                        onclick="Close()">Close -> X</span>
+                    <a href="home.html">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="product.html">Products</a>
+                    <a href="ourStory.html">Our Story</a>
+                    <a href="values.html">Values</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="giftCards.html">Gift Cards</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="myAccount.html">My account</a>
+                    <a href="wishlist.html">Wishlist</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="terms&conditions.html">Terms & conditions</a>
+                    <a href="privacyPolicy.html">Privacy Policy</a>
+                    <a href="login.html">Login</a>
+                    <a href="register.html">Register</a>
                 </div>
             </div>
         </div>

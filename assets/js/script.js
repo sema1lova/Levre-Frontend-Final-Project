@@ -136,12 +136,39 @@ function Close(){
 }
 // Cart Side Bar
 
-function OpenCart(){
-  var sidebar = document.getElementById('sideBar');
-  sidebar.style.transform = 'translateX(0%)';
-}
+// function OpenCart(){
+//   var sidebar = document.getElementById('sideBar');
+//   sidebar.style.transform = 'translateX(0%)';
+// }
 
-function CloseCart(){
-  var sidebar = document.getElementById('sideBar');
-  sidebar.style.transform = 'translateX(100%)'
-}
+// function CloseCart(){
+//   var sidebar = document.getElementById('sideBar');
+//   sidebar.style.transform = 'translateX(100%)'
+// }
+
+// //tab js
+// let tabs = document.querySelectorAll('.opencity');
+
+// tabs.forEach(item => {
+//     item.addEventListener( 'click', function(e){
+//         let cityname = item.getAttribute('data-city');
+//         openCity(e,cityname);
+//     });
+// });
+
+// function openCity(event, cityName) {
+//     var i, tabcontent, tablinks;
+  
+//     tabcontent = document.getElementsByClassName("tabcontent");
+//     for (i = 0; i < tabcontent.length; i++) {
+//       tabcontent[i].style.display = "none";
+//     }
+  
+//     tablinks = document.getElementsByClassName("tablinks");
+//     for (i = 0; i < tablinks.length; i++) {
+//       tablinks[i].className = tablinks[i].className.replace(" active", "");
+//     }
+  
+//     document.getElementById(cityName).style.display = "block";
+//     event.currentTarget.className += " active";
+// }
