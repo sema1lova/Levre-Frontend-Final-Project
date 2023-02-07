@@ -1,40 +1,271 @@
-// .tab {
-//     float: left;
-//     border: 1px solid #ccc;
-//     background-color: #f1f1f1;
-
-//     button {
-//         display: block;
-//         background-color: inherit;
-//         color: black;
-//         padding: 15px 10px;
-//         width: 100%;
-//         border: none;
-//         outline: none;
-//         text-align: left;
-//         cursor: pointer;
-//         transition: 0.3s;
-//         :hover {
-//             color: blue;
-//         }
-//     }
-
-// }
-
-// .tab button.active {
-//     color: blueviolet;
-// }
-
-// .tabcontent {
-//     display: none;
-//     float: left;
-//     padding: 0 12px;
-//     border: 1px solid #ccc;
-//     width: auto;
-//     border-left: none;
-//     height: 100%;
-// }
-
-// .tab-active {
-//     display: block;
-// }
+.dashboard-area { 
+    padding: 80px 0 
+    } 
+     
+    .dashboard-warp .author { 
+    margin-bottom: 50px 
+    } 
+     
+    .dashboard-warp .author .media { 
+    align-items: center 
+    } 
+     
+    .dashboard-warp .author .thumbnail { 
+    margin-bottom: 10px 
+    } 
+     
+    .dashboard-warp .author .thumbnail img { 
+    border-radius:50% 
+    } 
+     
+    .dashboard-warp .author .joining-date { 
+    font-size: 14px; 
+    color: #777777; 
+    font-weight: 500; 
+    } 
+     
+    .dashboard-warp .tab-content { 
+    padding-left: 45px 
+    } 
+    .dashboard-aside { 
+    border: 1px solid #CBD3D9; 
+    padding: 40px 35px 30px; 
+    border-radius: 6px ;
+    } 
+    .dashboard-aside .nav-tabs { 
+    border-bottom: none 
+    } 
+     
+    .dashboard-aside .nav-link { 
+    font-weight: 500; 
+    color: #777777; 
+    font-size: 14px; 
+    position: relative; 
+    border-radius: 6px; 
+    padding: 9px 10px 9px 55px; 
+    margin-bottom: 8px; 
+    transition: 0.3s; 
+    border: none; 
+    width:100%;
+    } 
+     
+    .dashboard-aside .nav-link i { 
+    position: absolute; 
+    top: 12px; 
+    left: 24px; 
+    font-size: 18px ;
+    } 
+     
+    .dashboard-aside .nav-link.active, 
+    .dashboard-aside .nav-link:hover { 
+    background-color: #F6F7FB; 
+    color: #3577f0 ;
+    } 
+     
+    .dashboard-overview .welcome-text { 
+    color: #000000; 
+    font-size: 18px; 
+    margin-bottom: 25px ;
+    } 
+     
+    .dashboard-overview .welcome-text span { 
+    font-weight: 700 
+    } 
+     
+    .dashboard-overview .welcome-text a { 
+    color: #E76458; 
+    transition: 0.3s 
+    } 
+     
+    .dashboard-overview .welcome-text a:hover { 
+    color: #3577f0; 
+    } 
+     
+    .dashboard-overview p { 
+    font-size: 16px 
+    } 
+     
+    .dashboard-order .table { 
+    font-family: "DM Sans", sans-serif; 
+    } 
+     
+    .dashboard-order .table thead { 
+    background-color:#F6F7FB; 
+    } 
+     
+    .dashboard-order .table thead th { 
+    border: none; 
+    padding: 18px 20px; 
+    vertical-align: middle; 
+    font-size: 20px; 
+    font-weight: 500; 
+    text-transform: capitalize 
+    } 
+     
+    .dashboard-order .table thead th:first-child { 
+    border-radius: 6px 0 0 6px 
+    } 
+     
+    .dashboard-order .table thead th:last-child { 
+    border-radius: 0 6px 6px 0; 
+    padding-right: 30px; 
+    text-align: right 
+    } 
+    .dashboard-order .table tbody { 
+    border-top: none 
+    } 
+     
+    .dashboard-order .table tbody tr td, 
+    .dashboard-order .table tbody tr th { 
+    padding: 20px 20px; 
+    vertical-align: middle; 
+    font-weight: 500; 
+    font-size: 14px; 
+    color: #292930; 
+    border-top: none; 
+    border-bottom: 2px solid#F6F7FB; 
+    } 
+     
+    .dashboard-order .table tbody tr td:last-child, 
+    .dashboard-order .table tbody tr th:last-child { 
+    text-align: right 
+    } 
+     
+    .dashboard-order .table tbody tr th { 
+    color:#E76458; 
+    } 
+     
+    .dashboard-order .table tbody tr td { 
+    min-width: 150px 
+    } 
+     
+    .dashboard-order .table tbody tr:first-child td, 
+    .dashboard-order .table tbody tr:first-child th { 
+    border-top: none 
+    } 
+     
+    .dashboard-order .table tbody .view-btn { 
+    padding: 9px 20px; 
+    border: 1px solid #777777; 
+    background-color: rgba(0, 0, 0, 0); 
+    color: #27272E; 
+    } 
+     
+    .dashboard-order .table tbody .view-btn:before { 
+    display: none 
+    } 
+     
+    .dashboard-order .table tbody .view-btn:after { 
+    display: none 
+    } 
+     
+    .dashboard-order.tabletbody .view-btn:hover { 
+    background-color: #3577f0; 
+    border-color:#3577f0; 
+    color:#ffffff; 
+    } 
+     
+    .dashboard-address .notice-text { 
+    font-size: 14px; 
+    color: #292930 
+    } 
+     
+    .dashboard-address .addrss-header { 
+    border-bottom: 1px solid #CBD3D9; 
+    padding-bottom: 20px; 
+    margin-bottom: 20px 
+    } 
+     
+    .dashboard-address .title { 
+    font-weight: 500; 
+    color: #292930 
+    } 
+     
+     
+     
+    .dashboard-address .address-edit { 
+    font-size: 14px; 
+    color: #292930; 
+    transition: 0.3s 
+    } 
+     
+    .dashboard-address .address-edit:hover { 
+    color:#3577f0; 
+    } 
+    .dashboard-address ul { 
+    padding: 0; 
+    margin: 0; 
+    } 
+    .dashboard-account .form-group { 
+    margin-bottom: 30px; 
+    position: relative; 
+     
+    } 
+     
+    .dashboard-account .form-group label { 
+    position: absolute; 
+    top: -11px; 
+    left: 20px; 
+    pointer-events: none; 
+    z-index: 4; 
+    background: #fff; 
+    padding: 0 10px; 
+    margin-bottom: 6px; 
+    font-size: 14px; 
+    line-height: 22px; 
+    font-weight: 500; 
+    color: #777777; 
+     
+    } 
+     
+    .dashboard-account .title{ 
+    margin-bottom: 30px; 
+    } 
+    .dashboard-account .btn{ 
+    background-color: #3577f0; 
+    transition: .3s; 
+    height: 60px; 
+    padding: 0 30px; 
+    color: #eee; 
+    } 
+    .select2 { 
+    cursor: pointer; 
+    transition: .3s; 
+    height: 55px; 
+    padding: 0 30px; 
+    outline: none; 
+    color: #777777; 
+    appearance: none; 
+    border: 1px solid#E3E6E9; 
+    border-radius: 6px; 
+    padding-right: 32px; 
+    font-size: 16px; 
+    width: 100%; 
+    line-height: 1.7; 
+    font-family: "DM Sans", sans-serif; 
+    } 
+     
+     
+    .dashboard-address ul li { 
+    font-size: 14px; 
+    line-height: 1.65; 
+    list-style: none; 
+    margin-top: 8px; 
+    margin-bottom: 8px; 
+    color: #292930; 
+    font-family: "DM Sans", sans-serif; 
+    } 
+     
+    .dashboard-account .form-group .form-control { 
+    height: 60px; 
+    padding: 10px 30px; 
+    border-color: #CBD3D9; 
+    outline: none; 
+    box-shadow: none; 
+    color: #777777; 
+    } 
+     
+    .dashboard-account .form-group select option:hover { 
+    background: red !important; 
+    color: red 
+    }
