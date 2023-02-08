@@ -1292,219 +1292,219 @@
 }
 
 .dashboard-area {
-  padding: 80px0;
+  padding: 80px 0;
 }
 
-.dashboard-warp.author {
+.dashboard-warp .author {
   margin-bottom: 50px;
 }
 
-.dashboard-warp.author.media {
+.dashboard-warp .author .media {
   align-items: center;
 }
 
-.dashboard-warp.author.thumbnail {
+.dashboard-warp .author .thumbnail {
   margin-bottom: 10px;
 }
 
-.dashboard-warp.author.thumbnailimg {
+.dashboard-warp .author .thumbnail img {
   border-radius: 50%;
 }
 
-.dashboard-warp.author.joining-date {
+.dashboard-warp .author .joining-date {
   font-size: 14px;
   color: #777777;
   font-weight: 500;
 }
 
-.dashboard-warp.tab-content {
+.dashboard-warp .tab-content {
   padding-left: 45px;
 }
 
 .dashboard-aside {
-  border: 1pxsolid #CBD3D9;
-  padding: 40px35px30px;
+  border: 1px solid #CBD3D9;
+  padding: 40px 35px 30px;
   border-radius: 6px;
 }
 
-.dashboard-aside.nav-tabs {
+.dashboard-aside .nav-tabs {
   border-bottom: none;
 }
 
-.dashboard-aside.nav-link {
+.dashboard-aside .nav-link {
   font-weight: 500;
   color: #777777;
   font-size: 14px;
   position: relative;
   border-radius: 6px;
-  padding: 9px10px9px55px;
+  padding: 9px 10px 9px 55px;
   margin-bottom: 8px;
   transition: 0.3s;
   border: none;
   width: 100%;
 }
 
-.dashboard-aside.nav-linki {
+.dashboard-aside .nav-link i {
   position: absolute;
   top: 12px;
   left: 24px;
   font-size: 18px;
 }
 
-.dashboard-aside.nav-link.active,
-.dashboard-aside.nav-link:hover {
+.dashboard-aside .nav-link.active,
+.dashboard-aside .nav-link:hover {
   background-color: #F6F7FB;
-  color: #3577f0;
+  color: rgb(13, 247, 13);
 }
 
-.dashboard-overview.welcome-text {
+.dashboard-overview .welcome-text {
   color: #000000;
   font-size: 18px;
   margin-bottom: 25px;
 }
 
-.dashboard-overview.welcome-textspan {
+.dashboard-overview .welcome-text span {
   font-weight: 700;
 }
 
-.dashboard-overview.welcome-texta {
-  color: #E76458;
+.dashboard-overview .welcome-text a {
+  color: rgb(13, 247, 13);
   transition: 0.3s;
 }
 
-.dashboard-overview.welcome-texta:hover {
-  color: #3577f0;
+.dashboard-overview .welcome-text a:hover {
+  color: rgb(13, 247, 13);
 }
 
-.dashboard-overviewp {
+.dashboard-overview p {
   font-size: 16px;
 }
 
-.dashboard-order.table {
-  font-family: "DMSans", sans-serif;
+.dashboard-order .table {
+  font-family: "DM Sans", sans-serif;
 }
 
-.dashboard-order.tablethead {
+.dashboard-order .table thead {
   background-color: #F6F7FB;
 }
 
-.dashboard-order.tabletheadth {
+.dashboard-order .table thead th {
   border: none;
-  padding: 18px20px;
+  padding: 18px 20px;
   vertical-align: middle;
   font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
 }
 
-.dashboard-order.tabletheadth:first-child {
-  border-radius: 6px006px;
+.dashboard-order .table thead th:first-child {
+  border-radius: 6px 0 0 6px;
 }
 
-.dashboard-order.tabletheadth:last-child {
-  border-radius: 6px6px0;
+.dashboard-order .table thead th:last-child {
+  border-radius: 0 6px 6px 0;
   padding-right: 30px;
   text-align: right;
 }
 
-.dashboard-order.tabletbody {
+.dashboard-order .table tbody {
   border-top: none;
 }
 
-.dashboard-order.tabletbodytrtd,
-.dashboard-order.tabletbodytrth {
-  padding: 20px20px;
+.dashboard-order .table tbody tr td,
+.dashboard-order .table tbody tr th {
+  padding: 20px 20px;
   vertical-align: middle;
   font-weight: 500;
   font-size: 14px;
   color: #292930;
   border-top: none;
-  border-bottom: 2pxsolid #F6F7FB;
+  border-bottom: 2px solid #F6F7FB;
 }
 
-.dashboard-order.tabletbodytrtd:last-child,
-.dashboard-order.tabletbodytrth:last-child {
+.dashboard-order .table tbody tr td:last-child,
+.dashboard-order .table tbody tr th:last-child {
   text-align: right;
 }
 
-.dashboard-order.tabletbodytrth {
-  color: #E76458;
+.dashboard-order .table tbody tr th {
+  color: rgb(13, 247, 13);
 }
 
-.dashboard-order.tabletbodytrtd {
+.dashboard-order .table tbody tr td {
   min-width: 150px;
 }
 
-.dashboard-order.tabletbodytr:first-childtd,
-.dashboard-order.tabletbodytr:first-childth {
+.dashboard-order .table tbody tr:first-child td,
+.dashboard-order .table tbody tr:first-child th {
   border-top: none;
 }
 
-.dashboard-order.tabletbody.view-btn {
-  padding: 9px20px;
-  border: 1pxsolid #777777;
+.dashboard-order .table tbody .view-btn {
+  padding: 9px 20px;
+  border: 1px solid #777777;
   background-color: rgba(0, 0, 0, 0);
   color: #27272E;
 }
 
-.dashboard-order.tabletbody.view-btn:before {
+.dashboard-order .table tbody .view-btn:before {
   display: none;
 }
 
-.dashboard-order.tabletbody.view-btn:after {
+.dashboard-order .table tbody .view-btn:after {
   display: none;
 }
 
-.dashboard-order.tabletbody.view-btn:hover {
-  background-color: #3577f0;
-  border-color: #3577f0;
+.dashboard-order .table tbody .view-btn:hover {
+  background-color: rgb(13, 247, 13);
+  border-color: rgb(13, 247, 13);
   color: #ffffff;
 }
 
-.dashboard-address.notice-text {
+.dashboard-address .notice-text {
   font-size: 14px;
   color: #292930;
 }
 
-.dashboard-address.addrss-header {
-  border-bottom: 1pxsolid #CBD3D9;
+.dashboard-address .addrss-header {
+  border-bottom: 1px solid #CBD3D9;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
-.dashboard-address.title {
+.dashboard-address .title {
   font-weight: 500;
   color: #292930;
 }
 
-.dashboard-address.address-edit {
+.dashboard-address .address-edit {
   font-size: 14px;
   color: #292930;
   transition: 0.3s;
 }
 
-.dashboard-address.address-edit:hover {
-  color: #3577f0;
+.dashboard-address .address-edit:hover {
+  color: rgb(13, 247, 13);
 }
 
-.dashboard-addressul {
+.dashboard-address ul {
   padding: 0;
   margin: 0;
 }
 
-.dashboard-account.form-group {
+.dashboard-account .form-group {
   margin-bottom: 30px;
   position: relative;
 }
 
-.dashboard-account.form-grouplabel {
+.dashboard-account .form-group label {
   position: absolute;
   top: -11px;
   left: 20px;
   pointer-events: none;
   z-index: 4;
   background: #fff;
-  padding: 10px;
+  padding: 0 10px;
   margin-bottom: 6px;
   font-size: 14px;
   line-height: 22px;
@@ -1512,15 +1512,15 @@
   color: #777777;
 }
 
-.dashboard-account.title {
+.dashboard-account .title {
   margin-bottom: 30px;
 }
 
-.dashboard-account.btn {
-  background-color: #3577f0;
+.dashboard-account .btn {
+  background-color: rgb(13, 247, 13);
   transition: 0.3s;
   height: 60px;
-  padding: 30px;
+  padding: 0 30px;
   color: #eee;
 }
 
@@ -1528,43 +1528,43 @@
   cursor: pointer;
   transition: 0.3s;
   height: 55px;
-  padding: 30px;
+  padding: 0 30px;
   outline: none;
   color: #777777;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  border: 1pxsolid #E3E6E9;
+  border: 1px solid #E3E6E9;
   border-radius: 6px;
   padding-right: 32px;
   font-size: 16px;
   width: 100%;
   line-height: 1.7;
-  font-family: "DMSans", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
-.dashboard-addressulli {
+.dashboard-address ul li {
   font-size: 14px;
   line-height: 1.65;
   list-style: none;
   margin-top: 8px;
   margin-bottom: 8px;
   color: #292930;
-  font-family: "DMSans", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
-.dashboard-account.form-group.form-control {
+.dashboard-account .form-group .form-control {
   height: 60px;
-  padding: 10px30px;
+  padding: 10px 30px;
   border-color: #CBD3D9;
   outline: none;
   box-shadow: none;
   color: #777777;
 }
 
-.dashboard-account.form-groupselectoption:hover {
-  background: red !important;
-  color: red;
+.dashboard-account .form-group select option:hover {
+  background: rgb(13, 247, 13) !important;
+  color: rgb(13, 247, 13);
 }
 
 .wishlist {
