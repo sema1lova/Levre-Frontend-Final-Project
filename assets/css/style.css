@@ -415,7 +415,6 @@
   margin-right: 25px;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
   -webkit-user-drag: none;
 }
@@ -643,7 +642,6 @@
   justify-content: center;
 }
 .ourstory-discover .discover-div .discover-content {
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
@@ -775,7 +773,6 @@
   justify-content: center;
 }
 .values-discover .values-discover-div .values-discover-content {
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
 }
@@ -1701,9 +1698,6 @@
 .login form .form-group ::-moz-placeholder {
   color: #000 !important;
 }
-.login form .form-group :-ms-input-placeholder {
-  color: #000 !important;
-}
 .login form .form-group ::placeholder {
   color: #000 !important;
 }
@@ -1750,9 +1744,6 @@
   padding: 14px 0px 14px 14px;
 }
 .register form .form-group ::-moz-placeholder {
-  color: #000 !important;
-}
-.register form .form-group :-ms-input-placeholder {
   color: #000 !important;
 }
 .register form .form-group ::placeholder {
@@ -1953,16 +1944,10 @@ footer .footer .fbox .footer-input input {
 footer .footer .fbox .footer-input ::-moz-placeholder {
   color: #fff;
 }
-footer .footer .fbox .footer-input :-ms-input-placeholder {
-  color: #fff;
-}
 footer .footer .fbox .footer-input ::placeholder {
   color: #fff;
 }
 footer .footer .fbox .footer-input ::-moz-placeholder:hover {
-  opacity: 0.7;
-}
-footer .footer .fbox .footer-input :-ms-input-placeholder:hover {
   opacity: 0.7;
 }
 footer .footer .fbox .footer-input ::placeholder:hover {
@@ -2028,16 +2013,10 @@ footer .copyright .copyright-bottom p {
 .subscribe .sub-box .sub-content .sub-input ::-moz-placeholder {
   color: #000;
 }
-.subscribe .sub-box .sub-content .sub-input :-ms-input-placeholder {
-  color: #000;
-}
 .subscribe .sub-box .sub-content .sub-input ::placeholder {
   color: #000;
 }
 .subscribe .sub-box .sub-content .sub-input ::-moz-placeholder:hover {
-  opacity: 0.7;
-}
-.subscribe .sub-box .sub-content .sub-input :-ms-input-placeholder:hover {
   opacity: 0.7;
 }
 .subscribe .sub-box .sub-content .sub-input ::placeholder:hover {
@@ -2187,9 +2166,6 @@ footer .copyright .copyright-bottom p {
   footer .footer .fbox .footer-input ::-moz-placeholder {
     color: #fff;
   }
-  footer .footer .fbox .footer-input :-ms-input-placeholder {
-    color: #fff;
-  }
   footer .footer .fbox .footer-input ::placeholder {
     color: #fff;
   }
@@ -2250,9 +2226,6 @@ footer .copyright .copyright-bottom p {
     color: #000;
   }
   .subscribe .sub-box .sub-content .sub-input ::-moz-placeholder {
-    color: #000;
-  }
-  .subscribe .sub-box .sub-content .sub-input :-ms-input-placeholder {
     color: #000;
   }
   .subscribe .sub-box .sub-content .sub-input ::placeholder {
@@ -2800,7 +2773,6 @@ footer .copyright .copyright-bottom p {
     justify-content: center;
   }
   .ourstory-discover .discover-div .discover-content {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -2929,7 +2901,6 @@ footer .copyright .copyright-bottom p {
     justify-content: center;
   }
   .values-discover .values-discover-div .values-discover-content {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -3598,9 +3569,6 @@ footer .copyright .copyright-bottom p {
   footer .footer .fbox .footer-input ::-moz-placeholder {
     color: #fff;
   }
-  footer .footer .fbox .footer-input :-ms-input-placeholder {
-    color: #fff;
-  }
   footer .footer .fbox .footer-input ::placeholder {
     color: #fff;
   }
@@ -3661,9 +3629,6 @@ footer .copyright .copyright-bottom p {
     color: #000;
   }
   .subscribe .sub-box .sub-content .sub-input ::-moz-placeholder {
-    color: #000;
-  }
-  .subscribe .sub-box .sub-content .sub-input :-ms-input-placeholder {
     color: #000;
   }
   .subscribe .sub-box .sub-content .sub-input ::placeholder {
@@ -4220,7 +4185,6 @@ footer .copyright .copyright-bottom p {
     justify-content: center;
   }
   .ourstory-discover .discover-div .discover-content {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
@@ -4350,7 +4314,6 @@ footer .copyright .copyright-bottom p {
     justify-content: center;
   }
   .values-discover .values-discover-div .values-discover-content {
-    height: -webkit-max-content;
     height: -moz-max-content;
     height: max-content;
   }
