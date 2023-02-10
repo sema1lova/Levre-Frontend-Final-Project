@@ -1584,6 +1584,25 @@
   margin: 100px 0;
 }
 
+.cart .cart-content i {
+  font-size: 33px;
+}
+.cart .cart-content h1 {
+  margin-bottom: 70px;
+}
+.cart .cart-content .update-cart {
+  text-decoration: none;
+  padding: 20px 45px;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid #000;
+  transition: 0.4s;
+}
+.cart .cart-content .update-cart:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .terms-slider {
   background-image: url("../img/terms&conditions/terms&conditions.jpg");
   height: 92vh;
