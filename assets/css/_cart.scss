@@ -14,18 +14,40 @@
             margin-bottom: 70px;
         }
 
-        .update-cart {
-            text-decoration: none;
-            padding: 20px 45px;
-            color: $black;
-            font-weight: 500;
-            border: 1px solid $black;
-            transition: 0.4s;
-        }
+    }
+    .update-cart {
+        text-decoration: none;
+        padding: 20px 45px;
+        color: $black;
+        font-weight: 500;
+        border: 1px solid $black;
+        transition: 0.4s;
+    }
 
-        .update-cart:hover {
-            background-color: $black;
-            color: $white;
+    .update-cart:hover {
+        background-color: $black;
+        color: $white;
+    }
+    .cart-center{
+        .productimg{
+            img{
+                width: 50%;
+            }
+        }
+        .productname{
+            
+        }
+        .productprice{
+            
+        }
+        .quantity{
+            
+        }
+        .subtotalproduct{
+
+        }
+        .removeicon{
+
         }
     }
 }

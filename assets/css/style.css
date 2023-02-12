@@ -967,7 +967,7 @@
   color: #000;
   border: 1px solid #000;
   padding: 11px 22px;
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
 }
 
 .bd-links .bd-share-title {
@@ -979,7 +979,7 @@
 }
 .bd-links .bd-share-title a {
   transition: 0.4s;
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
 }
 .bd-links .bd-share-title a i {
   font-size: 22px;
@@ -993,7 +993,7 @@
   text-align: start;
 }
 .post-comment #contact-form-2 {
-  width: 75%;
+  width: 66%;
   margin: 0 auto;
 }
 .post-comment #contact-form-2 .formm-2 {
@@ -1011,7 +1011,23 @@
 .post-comment #contact-form-2 .second-in {
   width: 100%;
 }
+.post-comment #contact-form-2 textarea {
+  outline: none;
+}
 
+.blog-comment {
+  margin: 30px 0 50px 0;
+}
+.blog-comment .comment-content {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(231, 230, 230);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
 .giftcard-slider {
   background-image: url("../img/giftCards/giftCards-header/Gift-Cards-header.jpg");
   height: 92vh;
@@ -1590,7 +1606,7 @@
 .cart .cart-content h1 {
   margin-bottom: 70px;
 }
-.cart .cart-content .update-cart {
+.cart .update-cart {
   text-decoration: none;
   padding: 20px 45px;
   color: #000;
@@ -1598,11 +1614,13 @@
   border: 1px solid #000;
   transition: 0.4s;
 }
-.cart .cart-content .update-cart:hover {
+.cart .update-cart:hover {
   background-color: #000;
   color: #fff;
 }
-
+.cart .cart-center .productimg img {
+  width: 50%;
+}
 .terms-slider {
   background-image: url("../img/terms&conditions/terms&conditions.jpg");
   height: 92vh;
