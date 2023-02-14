@@ -122,51 +122,162 @@
 }
 
 // CART dropdown
+.cart-dropbtn {
+    color: $black;
+    // padding: 16px;
+    // font-size: 16px;
+    border: none;
+}
+.cart-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.cart-dropdown a {
+    color: $black;
+    text-decoration: none;
+}
+.cart-dropdown-content {
+    right: -66px;
+    top: 25px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    text-align: start !important;
+    min-width: 370px;
+    min-height: 150px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 15px;
+    .cart-price-content{
+        border-top: 1px solid gray;
+        .cart-total{
+            margin-left: 14px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .cart-view{
+           a{
+            padding: 18px 10px;
+            background-color: $black;
+            color: $white;
+            font-weight: 500;
+            margin-top: 20px;
+           }
+        }
+    }
+}
+.cart-dropdown-content h6 {
+    text-align: start !important;
+}
+.cart-dropdown-content a {
+    border: none !important;
+    color: $black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+.cart-dropdown-content a:hover {
+    opacity: 0.7;
+}
+.cart-dropdown:hover .cart-dropdown-content {
+    // margin-top: 10px;
+    display: block;
+}
 
-// .cart-dropbtn {
-//     color: $black;
-//     border: none;
-// }
-// .cart-dropdown {
-//     position: relative;
-//     display: inline-block;
-// }
-// .cart-dropdown a {
-//     color: $black;
-//     text-decoration: none;
-// }
-// .cart-dropdown-content {
-//     right: -60px;
-//     top: 60px;
-//     display: none;
-//     position: absolute;
-//     background-color: $white;
-//     color: $black;
-//     text-align: start !important;
-//     min-width: 313px;
-//     min-height: 313px;
-//     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-//     z-index: 1;
-//     font-size: 15px;
-// }
-// .cart-dropdown-content h6 {
-//     text-align: start !important;
-// }
-// .cart-dropdown-content a {
-//     border: none !important;
-//     color: $black;
-//     padding: 8px 16px;
-//     text-decoration: none;
-//     display: block;
-//     transition: 0.3s;
-// }
-// .cart-dropdown-content a:hover {
-//     opacity: 0.7;
-// }
-// .cart-dropdown:hover .cart-dropdown-content {
-//     // margin-top: 10px;
-//     display: block;
-// }
+.header-cart{
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+    .single-cart-item{
+        margin-top: 10px;
+        .cart-left{
+            width: 47%;
+            img{
+                width: 100%;
+            }
+        }
+        .cart-center{
+.product-quantity{
+    font-size: 16.5px;
+    margin: 0;
+}
+.product-price {
+    font-weight: 500;
+    font-size: 17px;
+}
+        }
+        .cart-right{
+
+        }
+    }
+}
+
+
+
+
+
+// cart end
+.user-dropbtn {
+    color: $black;
+    border: none;
+}
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.user-dropdown a {
+    color: $black;
+    text-decoration: none;
+}
+.user-dropdown-content {
+    right: -60px;
+    top: 26px;
+    display: none;
+    position: absolute;
+    background-color: $white;
+    color: $black;
+    text-align: start !important;
+    min-width: 150px;
+    min-height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 15px;
+}
+.user-dropdown-content h6 {
+    text-align: start !important;
+}
+.user-dropdown-content a {
+    border: none !important;
+    color: $black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+.user-dropdown-content a:hover {
+    opacity: 0.7;
+}
+.user-dropdown:hover .user-dropdown-content {
+    // margin-top: 10px;
+    display: block;
+}
 
 
 
@@ -224,7 +335,7 @@ header {
     .icons {
         text-align: center;
         .icon {
-            margin-right: 22px;
+            margin-right: 15px;
             font-size: 20px;
         }
         .bag {
