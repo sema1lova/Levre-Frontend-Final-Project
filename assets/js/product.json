@@ -1,0 +1,44 @@
+[
+    {
+        "id":0,
+        "name":"Facial Balancing Gel",
+        "img":"http://127.0.0.1:5500/assets/img/shop/category-shop/shop-1.png",
+        "price":13,
+        "DisPrice":99
+    },
+    {
+        "id":1,
+        "name":"Facial Balancing Gel",
+        "img":"http://127.0.0.1:5500/assets/img/shop/category-shop/shop-1.png",
+        "price":23,
+        "DisPrice":99
+    },
+    {
+        "id":2,
+        "name":"Facial Balancing Gel",
+        "img":"http://127.0.0.1:5500/assets/img/shop/category-shop/shop-1.png",
+        "price":33,
+        "DisPrice":99
+    },
+    {
+        "id":3,
+        "name":"Facial Balancing Gel",
+        "img":"http://127.0.0.1:5500/assets/img/shop/category-shop/shop-1.png",
+        "price":43,
+        "DisPrice":99
+    },
+    {
+        "id":4,
+        "name":"Facial Balancing Gel",
+        "img":"http://127.0.0.1:5500/assets/img/shop/category-shop/shop-1.png",
+        "price":53,
+        "DisPrice":99
+    },
+    {
+        "id":5,
+        "name":"Facial Balancing Gel",
+        "img":"http://127.0.0.1:5500/assets/img/shop/category-shop/shop-1.png",
+        "price":63,
+        "DisPrice":99
+    }
+]
